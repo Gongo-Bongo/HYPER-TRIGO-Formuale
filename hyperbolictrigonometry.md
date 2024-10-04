@@ -208,7 +208,7 @@ $$
 
 **Solution:**
 
-We can rewrite the integrand using the identity \(\tanh(x) = \frac{\sinh(x)}{\cosh(x)}\):
+We can rewrite the integrand using the identity \($\tanh(x) = \frac{\sinh(x)}{\cosh(x)}$):
 $$
 \frac{\sinh(x)}{\cosh^2(x)} = \frac{\tanh(x)}{\cosh(x)}
 $$
@@ -218,12 +218,12 @@ $$
 \int \frac{\tanh(x)}{\cosh(x)} \, dx
 $$
 
-Let \( u = \cosh(x) \), so that \( du = \sinh(x) \, dx \). Rewriting the integral in terms of \( u \):
+Let \( $u = \cosh(x)$ \), so that \( $du = \sinh(x) \, dx $ \). Rewriting the integral in terms of \( $u$ \):
 $$
 \int \frac{1}{u^2} \, du = -\frac{1}{u} + C
 $$
 
-Substitute back \( u = \cosh(x) \):
+Substitute back \( $u = \cosh(x)$ \):
 $$
 -\frac{1}{\cosh(x)} + C
 $$
@@ -308,7 +308,7 @@ $$
 
 **Solution:**
 
-This is a straightforward integral as it follows directly from the derivative of \(\sech(x)\):
+This is a straightforward integral as it follows directly from the derivative of \($sech(x)$\):
 $$
 \frac{d}{dx} sech(x) = -sech(x) \tanh(x)
 $$
@@ -328,7 +328,7 @@ $$
 
 **Solution:**
 
-We can rewrite \(\cosh^3(x)\) as:
+We can rewrite \($\cosh^3(x)$\) as:
 $$
 \cosh^3(x) = \cosh(x) \cdot \cosh^2(x)
 $$
@@ -350,7 +350,7 @@ $$
 \int \cosh(x) \, dx = \sinh(x)
 $$
 
-For the second integral, use the substitution \( u = \sinh(x) \), so that \( du = \cosh(x) \, dx \):
+For the second integral, use the substitution \( $u = \sinh(x)$ \), so that \( $du = \cosh(x) \, dx$ \):
 $$
 \int \sinh^2(x) \cosh(x) \, dx = \int u^2 \, du = \frac{u^3}{3} = \frac{\sinh^3(x)}{3}
 $$
